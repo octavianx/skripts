@@ -1,4 +1,8 @@
 #!/bin/bash
+
+# this is linux only, not for mac oS
+
+
 #
 #CPU_us=$(vmstat | awk '{print $13}' | sed -n '$p')
 CPU_sy=$(vmstat | awk '{print $14}' | sed -n '$p')

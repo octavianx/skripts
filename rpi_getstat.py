@@ -1,4 +1,7 @@
 #!/usr/bin/python
+# Using python for system status report on raspberry
+# 
+
 import os
  
  
