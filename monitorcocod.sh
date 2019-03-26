@@ -2,7 +2,7 @@
 #  jumpserver的 cocod 经常出问题  自动清理一下
 #  root 执行，依赖于py3 环境
 #  crontab 的内容为: 每分钟清理一次
-#	*/1 * * * *     /path/tothiscript/monitorcocod.sh
+#	*/1 * * * *     /path/tothiscript/monitorcocod.sh   1>/dev/null 2>&1
 #
 #  确认cocod 的缺省端口必须是 2222 , 如果不是需要修改
 
